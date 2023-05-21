@@ -1,0 +1,13 @@
+#!/bin/bash
+
+set -e
+
+echo -e "\033[1;35m Setting up development environment... \033[0m"
+
+if [[ ! -f "./.env" ]]; then
+    echo -e "\033[1;35m Creating .env file... \033[0m"
+    cp ./.env.example .env
+    echo -e "\033[1;35m .env file created! \033[0m"
+fi
+
+echo -e "\033[1;35m Done! You can customize the .env file & start running docker compose commands now. \033[0m"

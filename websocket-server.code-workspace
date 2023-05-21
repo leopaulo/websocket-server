@@ -1,0 +1,26 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
+		"editor.tabSize": 4,
+		"editor.formatOnSave": true,
+		"eslint.alwaysShowStatus": true,
+		"files.exclude": {
+			"node_modules/": false,
+			"vendor/": false
+		},
+		"editor.rulers": [120],
+		"editor.wordWrap": "wordWrapColumn",
+		"editor.wordWrapColumn": 120,
+		"files.watcherExclude": {
+			"**/.git/objects/**": true,
+			"**/node_modules/**": true,
+			"**/vendor/**": true
+		},
+		"javascript.suggestionActions.enabled": false
+	}
+}
