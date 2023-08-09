@@ -1,4 +1,4 @@
-import { validate } from '../eventValidation/onLeave.js';
+import { validate } from '../eventvalidation/onLeave.js';
 import eventError from '../exception/eventError.js';
 import successHandler from '../utils/successHandler.js';
 

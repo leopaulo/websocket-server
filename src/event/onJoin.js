@@ -1,4 +1,4 @@
-import { validate } from '../eventValidation/onJoin.js';
+import { validate } from '../eventvalidation/onJoin.js';
 import eventError from '../exception/eventError.js';
 import authConfig from '../config/auth.js';
 import successHandler from '../utils/successHandler.js';

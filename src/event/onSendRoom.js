@@ -1,4 +1,4 @@
-import { validate } from '../eventValidation/onSendRoom.js';
+import { validate } from '../eventvalidation/onSendRoom.js';
 import eventError from '../exception/eventError.js';
 import { send } from '../utils/send.js';
 import successHandler from '../utils/successHandler.js';

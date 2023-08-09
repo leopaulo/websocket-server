@@ -1,4 +1,4 @@
-import { validate } from '../eventValidation/onSend.js';
+import { validate } from '../eventvalidation/onSend.js';
 import eventError from '../exception/eventError.js';
 import { send } from '../utils/send.js';
 import successHandler from '../utils/successHandler.js';
